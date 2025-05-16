@@ -1,6 +1,7 @@
 public class Demo{
-	public static void main(String[] args){
-		int i=10;
-		System.out.println(i);
-	}
+
+  public static void generateRandomNumber(){
+     Random rd=new Random();
+     System.out.println(rd.nextLong());
+}
 }
